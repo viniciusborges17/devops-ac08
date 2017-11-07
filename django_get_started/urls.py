@@ -42,4 +42,5 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     # url(r'^admin/', include(admin.site.urls)),
     url(r'^cadastro_vestibulares/$', 'app.views.cadastro_vestibulares', name='cadastro_vestibulares'),
+    url(r'^cadastro_candidatos', 'app.views.cadastro_candidatos', name='cadastro_candidatos'),
 )
